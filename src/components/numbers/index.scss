@@ -1,0 +1,41 @@
+#home_div{
+        width: 432px;
+        height: 549px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        border: 5px solid rgb(247, 230, 155);
+        border-radius: 5px;
+            #result_div{  
+                background-color: rgb(247, 230, 155);
+                height: 122px;    
+                position: relative; 
+                    div{
+                        box-sizing: border-box;
+                        padding: 0 30px 10px 0;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        font-size: 28px;
+                    }
+            }     
+        #calc_div{
+            padding: 9px;
+            display: grid;
+            grid-template-columns: 105px 105px 105px 105px;
+            grid-template-rows: 105px 105px 105px 105px;
+            background-color: white;
+            button{
+                width: 100px;
+                height: 100px;
+                background-color: rgb(234, 0, 255);
+                border: 1px solid rgb(255, 255, 255);
+                color: white;
+                font-size: 28px;   
+                border-radius: 25%; 
+            }
+        }
+}
+
+
+
