@@ -34,8 +34,7 @@ const Numbers = () => {
         </div>
      <div id='calc_div'>
        {arr.map((elem,i)=>{
-         return 
-         <button key={i} onClick={()=>handleButtonClick(elem)}>{elem}</button>
+         return <button key={i} onClick={()=>handleButtonClick(elem)}>{elem}</button>
        })} 
      </div>
     </div>
